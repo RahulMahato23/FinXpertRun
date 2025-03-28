@@ -6,7 +6,7 @@ Prerequisites:
 4.	You must have an OpenAI API Key for the AI Features.
 Extract the development.zip and open the folder on your IDE, then follow these steps.
 
-#Steps:
+#Steps:<br/>
 #Secrets Deployment
 1.	In the development.zip file, go to the secrets/secrets directory. In there, go through each file there and modify the environment variables there as per the given instructions.
 2.	Then in the parent secrets directory, run the file secret-deploy-script.sh on your command line.
