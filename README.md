@@ -37,7 +37,7 @@ Extract the development.zip and open the folder on your IDE, then follow these s
 
 ## Running the frontend
 1.	Create a ‘.env’ file in the /frontend directory.
-2.	Add these two variables there
+2.	Add these two variables there<br/>
 VITE_REACT_APP_API_BASE_URL=http://finxpert.com/api<br/>
 VITE_REACT_APP_BASE_URL=http://finxpert.com
 3.	Run: `npm run dev`
