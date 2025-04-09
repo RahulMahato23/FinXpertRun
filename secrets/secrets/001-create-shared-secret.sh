@@ -17,7 +17,8 @@ RABBITMQ_URL="amqp://$RABBITMQ_USER:$RABBITMQ_PASSWORD@$RABBITMQ_HOST:$RABBITMQ_
 
 KAFKA_BROKER_URL="kafka-srv:9092"
 
-OPENAI_API_KEY="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"     # OVERWRITE with your OPENAI API KEY
+OPENAI_API_KEY=""     # OVERWRITE with your OPENAI API KEY(can't add here in public repo as openai automatically bans the key if it is public. Contact developer for the key)
+# NOTE:: The OPENAI_API_KEY is required for the smart-ai service to work.
 GUEST_RESET_TOKEN=$(openssl rand -base64 32)  # OVERWRITE, write any (very secure) string here.
 
 EXPENSE_SERVICE_URL="http://expense-srv.finxpert-dev.svc.cluster.local:3000/api/expense"
